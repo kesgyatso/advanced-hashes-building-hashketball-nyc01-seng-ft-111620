@@ -1,36 +1,32 @@
-
-def game_hash{
-  
-  home: {
-    team_name: "Brooklyn Nets",
-    colors: ["Black", "White"],
-    players: [
-      
-      {
-        player_name: "Alan Anderson",
-        number: 0,
-        shoe: 16,
-        points: 22,
-        rebounds: 12,
-        assists: 12,
-        steals: 3,
-        blocks: 1
-        slam_dunks: 1
-      },
-      
-      {
-        player_name: "Reggie Evans",
-        number: 30,
-        shoe: 14,
-        points: 12,
-        rebounds: 12,
-        assists: 12,
-        steals: 12,
-        blocks: 12,
-        slam_dunks: 7
-      },
-      
-      {
+def game_hash
+  {
+    home: {
+      team_name: "Brooklyn Nets",
+      colors: ["Black", "White"],
+      players: [
+        {
+          player_name: "Alan Anderson",
+          number: 0,
+          shoe: 16,
+          points: 22,
+          rebounds: 12,
+          assists: 12,
+          steals: 3,
+          blocks: 1,
+          slam_dunks: 1
+        },
+        {
+          player_name: "Reggie Evans",
+          number: 30,
+          shoe: 14,
+          points: 12,
+          rebounds: 12,
+          assists: 12,
+          steals: 12,
+          blocks: 12,
+          slam_dunks: 7
+        },
+        {
           player_name: "Brook Lopez",
           number: 11,
           shoe: 17,
@@ -41,7 +37,6 @@ def game_hash{
           blocks: 1,
           slam_dunks: 15
         },
-        
         {
           player_name: "Mason Plumlee",
           number: 1,
@@ -53,18 +48,6 @@ def game_hash{
           blocks: 8,
           slam_dunks: 5
         },
-        {
-          player_name: "Mason Plumlee",
-          number: 1,
-          shoe: 19,
-          points: 26,
-          rebounds: 11,
-          assists: 6,
-          steals: 3,
-          blocks: 8,
-          slam_dunks: 5
-        },
-        
         {
           player_name: "Jason Terry",
           number: 31,
@@ -77,15 +60,12 @@ def game_hash{
           slam_dunks: 1
         }
       ]
-  },
-  
-  # away team
-  away: {
-    team_name: "Charlotte Hornets"
-    colors: ["Turtoise", "Purple"],
-    players: [
-      
-      {
+    },
+    away: {
+      team_name: "",
+      colors: [],
+      players: [
+        {
           player_name: "Jeff Adrien",
           number: 4,
           shoe: 18,
@@ -96,7 +76,6 @@ def game_hash{
           blocks: 7,
           slam_dunks: 2
         },
-        
         {
           player_name: "Bismack Biyombo",
           number: 0,
@@ -141,12 +120,7 @@ def game_hash{
           blocks: 5,
           slam_dunks: 12
         }
-      
       ]
-    
+    }
   }
-  
-}
- 
-
 end
