@@ -5,7 +5,7 @@ def game_hash{
     team_name: "Brooklyn Nets",
     colors: ["Black", "White"],
     players: [
-      
+      binding.pry
       {
         player_name: "Alan Anderson",
         number: 0,
